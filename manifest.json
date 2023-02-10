@@ -1,0 +1,14 @@
+{
+  "name": "Proctoring system",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
